@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+main{
+    display: grid;
+    grid: 1fr 25% 30px / 80% 1fr;
+    height: 200px;
+    .all-content{
+        background-color: black;
+        .header{
+            background-color: #FAEDD4;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            height: 150px;
+            .download-link{
+                display: flex;
+                svg{
+                    border: 1px solid #FB3B2D;
+                    border-radius: 5px;
+                    padding: 1% 2%;
+                    height: 53.7px;
+                }
+                svg:first-child{
+                    margin-right: 5%;
+                }
+            }
+            .language{
+                ul{
+                    list-style: none;
+                    display: flex;
+                    flex-direction: row;
+                    li{
+                        margin-right: 30%;
+                        a{
+                            text-decoration: none;
+                            color: #FB3B2D;
+                            font-family: Arial;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 50px;
+                            letter-spacing: 0em;
+                            text-align: left;
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+    aside{
+        background-color: #E5E5E5;;
+        height: 800px;
+    }
+}
