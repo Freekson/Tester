@@ -51,5 +51,39 @@ main .all-content .header .language ul li a {
 }
 main aside {
   background-color: #E5E5E5;
+  display: flex;
+  align-items: center;
+}
+main aside .block {
   height: 800px;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 33.4%;
+}
+main aside .block p {
+  position: absolute;
+  top: 50%;
+  transform: rotate(90deg);
+  font-size: 27px;
+  font-family: "Arial";
+  margin: 0;
+  width: 100%;
+}
+main aside .block:nth-child(1) {
+  background-color: #8899CC;
+}
+main aside .block:nth-child(1) p {
+  top: 53%;
+}
+main aside .block:nth-child(2) {
+  background-color: #FFAF00;
+}
+main aside .block:nth-child(2) p {
+  top: 51%;
+}
+main aside .block:nth-child(3) {
+  background-color: #FC564A;
 }
