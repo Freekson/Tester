@@ -76,7 +76,7 @@ main{
                 a{
                     display: block;
                     white-space: nowrap;
-                    padding: 0.5% 1%;
+                    padding: 0.5% 5%;
                     height: 28px;
                     color: #FB3B2D;
                     text-decoration: none;
@@ -94,11 +94,76 @@ main{
                 }
             }
         }
+        .street-food-block{
+            display: flex;
+            background-color: #FAEDD4;
+            .first-child{
+                flex-basis: 70%;
+                border-right: 3px solid #FB3B2D;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                h4{
+                    font-family: 'Arial';
+                    font-size: 65px;
+                    font-style: normal;
+                    font-weight: 400;
+                    letter-spacing: 0em;
+                    color: #FB3B2D;
+                    width: 569px;
+                    margin-top: 15%;
+                }
+                hr{
+                    width: 100%;
+                    background-color: #FB3B2D;
+                    border: 1px solid #FB3B2D;
+                }
+                .aside-text{
+                    width: 80%;
+                    color: #FB3B2D;
+                    margin-top: 25px;
+                    font-family: 'Arial';
+                    font-size: 22px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 33px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                }
+                .button{
+                    width: 100%;
+                    a{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 100%;
+                        color: #FAEDD4;
+                        background-color: #FB3B2D;
+                        text-decoration:  none;
+                        margin-top: 5%;
+                        height: 112px;
+                        font-family: 'Arial';
+                        font-size: 37px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 63px;
+                        letter-spacing: 0em;
+                        text-align: center;
+                        
+                    }
+                }
+            }
+            .second-child{
+                flex-basis: 30%;
+                img{
+                    height: 582px;
+                }
+            }
+        }
     }
     aside{
-        background-color: #E5E5E5;
+        background-color: #FAEDD4;
         display: flex;
-        align-items: center;
         .block{
             height: 800px;
             white-space: nowrap;
