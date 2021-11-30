@@ -78,7 +78,7 @@ main .all-content .restoran-block .buttons {
 main .all-content .restoran-block .buttons a {
   display: block;
   white-space: nowrap;
-  padding: 0.5% 1%;
+  padding: 0.5% 5%;
   height: 28px;
   color: #FB3B2D;
   text-decoration: none;
@@ -94,10 +94,74 @@ main .all-content .restoran-block .buttons a {
 main .all-content .restoran-block .buttons a:first-child {
   margin-right: 5%;
 }
-main aside {
-  background-color: #E5E5E5;
+main .all-content .street-food-block {
+  display: flex;
+  background-color: #FAEDD4;
+}
+main .all-content .street-food-block .first-child {
+  flex-basis: 70%;
+  border-right: 3px solid #FB3B2D;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .all-content .street-food-block .first-child h4 {
+  font-family: "Arial";
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0em;
+  color: #FB3B2D;
+  width: 569px;
+  margin-top: 15%;
+}
+main .all-content .street-food-block .first-child hr {
+  width: 100%;
+  background-color: #FB3B2D;
+  border: 1px solid #FB3B2D;
+}
+main .all-content .street-food-block .first-child .aside-text {
+  width: 80%;
+  color: #FB3B2D;
+  margin-top: 25px;
+  font-family: "Arial";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+main .all-content .street-food-block .first-child .button {
+  width: 100%;
+}
+main .all-content .street-food-block .first-child .button a {
   display: flex;
   align-items: center;
+  justify-content: center;
+  width: 100%;
+  color: #FAEDD4;
+  background-color: #FB3B2D;
+  text-decoration: none;
+  margin-top: 5%;
+  height: 112px;
+  font-family: "Arial";
+  font-size: 37px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 63px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+main .all-content .street-food-block .second-child {
+  flex-basis: 30%;
+}
+main .all-content .street-food-block .second-child img {
+  height: 582px;
+}
+main aside {
+  background-color: #FAEDD4;
+  display: flex;
 }
 main aside .block {
   height: 800px;
