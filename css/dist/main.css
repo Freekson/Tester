@@ -159,6 +159,30 @@ main .all-content .street-food-block .second-child {
 main .all-content .street-food-block .second-child img {
   height: 582px;
 }
+main .all-content .image-block img {
+  margin: 0;
+}
+main .all-content .image-block h4 {
+  color: #FB3B2D;
+  background-color: #FAEDD4;
+  margin: 0;
+  text-align: left;
+  padding: 20px 0px 20px 50px;
+  margin-top: -0.5%;
+  font-family: "Arial";
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 55px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+main .all-content .image-block hr {
+  width: 100%;
+  background-color: #FB3B2D;
+  border: 1px solid #FB3B2D;
+  margin: 0;
+}
 main aside {
   background-color: #FAEDD4;
   display: flex;
